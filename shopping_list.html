@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/js_83_Yuriy-St/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- check session before loading html -->
+    
+    
+    <!-- Title -->
+    <title>Bookshelf</title>
+
+    <!-- Styles -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css"
+    />
+    
+    <script type="module" crossorigin src="/js_83_Yuriy-St/assets/shopping_list-6c1726d0.js"></script>
+    <link rel="modulepreload" crossorigin href="/js_83_Yuriy-St/assets/main-0b8d3024.js">
+    <link rel="modulepreload" crossorigin href="/js_83_Yuriy-St/assets/index-e3d5d3f4-1c75a16c.js">
+    <link rel="stylesheet" href="/js_83_Yuriy-St/assets/main-077991af.css">
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+  <div class="container">
+    <div class="nav">
+      <a class="logo link" href="index.html">
+        <img class="header-logo" src="./svg/logo.svg" />
+        <img class="header-logo-text" src="./svg/bookshelfTextLogo.svg" />
+      </a>
+      <ul class="menu-list list">
+        <li class="nav-item">
+          <button class="nav-button button" data-home>Home</button>
+        </li>
+        <li class="nav-item">
+          <button class="nav-button button" data-shoppinglist>
+            <span>Shopping list</span>
+            <img src="./svg/uil_cart.svg" alt="" class="icon-btn" />
+          </button>
+        </li>
+      </ul>
+    </div>
+    <div class="user-block">
+      <div id="login-wrapper" class="login-wrapper hidden">
+        <img class="login-img" src="./logo_1.png" />
+        <p class="login-name"></p>
+        <p id="logout" class="logout">logout</p>
+      </div>
+      <btn id="sign-up-header-button" class="login">Sign up</btn>
+    </div>
+    <div class="burger-menu">
+      <img src="./svg/align-left.svg" />
+    </div>
+  </div>
+</header>
+
+
+    <!-- Main content -->
+    <div class="container">
+      <aside class="sidebar"></aside>
+      <section class="bookshelf"></section>
+    </div>
+    
+  </body>
+</html>
